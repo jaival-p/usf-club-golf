@@ -5,31 +5,24 @@ export default function SponsorshipCard({ tier, onSelect, isTop }) {
   const [hovered, setHovered] = useState(false);
 
   const tierStyles = {
-    title: {
+    platinum: {
       border: 'border-gold/60',
       bg: 'bg-gradient-to-b from-[#1a3020] to-card-surface',
       glow: '0 0 60px rgba(212,175,55,0.20)',
       badge: 'bg-gold text-fairway',
       badgeLabel: 'Premier',
     },
-    platinum: {
+    gold: {
       border: 'border-gold/30',
       bg: 'bg-card-surface',
       glow: '0 0 40px rgba(212,175,55,0.12)',
       badge: 'bg-[#A8B8C8]/20 text-[#C0D0E0]',
       badgeLabel: null,
     },
-    gold: {
+    silver: {
       border: 'border-gold/20',
       bg: 'bg-card-surface',
       glow: '0 0 30px rgba(212,175,55,0.08)',
-      badge: null,
-      badgeLabel: null,
-    },
-    silver: {
-      border: 'border-gold/15',
-      bg: 'bg-card-surface',
-      glow: 'none',
       badge: null,
       badgeLabel: null,
     },
@@ -41,13 +34,20 @@ export default function SponsorshipCard({ tier, onSelect, isTop }) {
       badgeLabel: null,
     },
     fairway: {
-      border: 'border-gold/10',
+      border: 'border-gold/15',
       bg: 'bg-card-surface',
       glow: 'none',
       badge: null,
       badgeLabel: null,
     },
     rocky: {
+      border: 'border-gold/10',
+      bg: 'bg-card-surface',
+      glow: 'none',
+      badge: null,
+      badgeLabel: null,
+    },
+    hole: {
       border: 'border-gold/10',
       bg: 'bg-card-surface',
       glow: 'none',
