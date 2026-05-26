@@ -8,6 +8,7 @@ import SponsorInquiryForm from '../components/golf/SponsorInquiryForm';
 import ConfirmationSection from '../components/golf/ConfirmationSection';
 import CurrentSponsorsSection from '../components/golf/CurrentSponsorsSection';
 import SponsorFooter from '../components/golf/SponsorFooter';
+import PartnerSection from '../components/golf/PartnerSection';
 
 export default function Home() {
   const [selectedPackage, setSelectedPackage] = useState(null);
@@ -34,6 +35,7 @@ export default function Home() {
     <div className="min-h-screen bg-fairway">
       <SponsorNavigation />
       <SponsorHeroSection />
+      <PartnerSection />
       <TournamentOverviewSection />
       <TheCauseSection />
       <SponsorshipPackagesSection onSelectPackage={handleSelectPackage} />
