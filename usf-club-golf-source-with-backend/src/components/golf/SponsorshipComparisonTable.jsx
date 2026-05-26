@@ -1,13 +1,13 @@
 import React from 'react';
 
 const TIERS = [
-  { name: 'Title', price: '$3,750' },
-  { name: 'Platinum', price: '$2,250' },
-  { name: 'Gold', price: '$1,500' },
-  { name: 'Silver', price: '$1,100' },
-  { name: 'Trophy', price: '$750' },
-  { name: 'Fairway', price: '$500' },
-  { name: 'Rocky', price: '$300' },
+  { name: 'Platinum', price: '$3,750' },
+  { name: 'Gold', price: '$2,250' },
+  { name: 'Silver', price: '$1,500' },
+  { name: 'Trophy', price: '$1,100' },
+  { name: 'Fairway', price: '$750' },
+  { name: 'Rocky', price: '$500' },
+  { name: 'Hole', price: '$300' },
 ];
 
 const BENEFITS = [
@@ -29,7 +29,7 @@ const BENEFITS = [
   },
   {
     label: 'Sponsored Foursome(s)',
-    values: ['2 Foursomes', '1 Foursome', '1 Foursome', '1 Foursome', false, false, false],
+    values: [false, false, false, false, false, false, false],
   },
   {
     label: 'Verbal Recognition',
