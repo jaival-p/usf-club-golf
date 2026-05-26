@@ -5,8 +5,8 @@ import SponsorshipComparisonTable from './SponsorshipComparisonTable';
 
 export const SPONSORSHIP_TIERS = [
   {
-    key: 'title',
-    name: 'Title Sponsor',
+    key: 'platinum',
+    name: 'Platinum',
     price: '$3,750',
     subtitle: 'Premier tournament partner',
     benefits: [
@@ -14,13 +14,12 @@ export const SPONSORSHIP_TIERS = [
       '6 Dual-Platform Social Media Posts',
       '6 Custom Sponsor Yard Signs',
       'On-Cart Advertising',
-      '2 Sponsored Foursomes',
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
   {
-    key: 'platinum',
-    name: 'Platinum',
+    key: 'gold',
+    name: 'Gold',
     price: '$2,250',
     subtitle: 'High visibility partnership',
     benefits: [
@@ -28,39 +27,36 @@ export const SPONSORSHIP_TIERS = [
       '4 Dual-Platform Social Media Posts',
       '4 Custom Sponsor Yard Signs',
       'On-Cart Advertising',
-      '1 Sponsored Foursome',
-      'Verbal Recognition at Shotgun, Lunch, and Awards',
-    ],
-  },
-  {
-    key: 'gold',
-    name: 'Gold',
-    price: '$1,500',
-    subtitle: 'Featured tournament sponsor',
-    benefits: [
-      'Official Event Branding Placement',
-      '4 Dual-Platform Social Media Posts',
-      '3 Custom Sponsor Yard Signs',
-      '1 Sponsored Foursome',
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
   {
     key: 'silver',
     name: 'Silver',
-    price: '$1,100',
-    subtitle: 'Supporting event sponsor',
+    price: '$1,500',
+    subtitle: 'Featured tournament sponsor',
     benefits: [
       'Official Event Branding Placement',
-      '2 Dual-Platform Social Media Posts',
-      '2 Custom Sponsor Yard Signs',
-      '1 Sponsored Foursome',
+      '4 Dual-Platform Social Media Posts',
+      '3 Custom Sponsor Yard Signs',
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
   {
     key: 'trophy',
     name: 'Trophy',
+    price: '$1,100',
+    subtitle: 'Supporting event sponsor',
+    benefits: [
+      'Official Event Branding Placement',
+      '2 Dual-Platform Social Media Posts',
+      '2 Custom Sponsor Yard Signs',
+      'Verbal Recognition at Shotgun, Lunch, and Awards',
+    ],
+  },
+  {
+    key: 'fairway',
+    name: 'Fairway',
     price: '$750',
     subtitle: 'Awards recognition sponsor',
     benefits: [
@@ -71,8 +67,8 @@ export const SPONSORSHIP_TIERS = [
     ],
   },
   {
-    key: 'fairway',
-    name: 'Fairway',
+    key: 'rocky',
+    name: 'Rocky',
     price: '$500',
     subtitle: 'Community visibility package',
     benefits: [
@@ -81,8 +77,8 @@ export const SPONSORSHIP_TIERS = [
     ],
   },
   {
-    key: 'rocky',
-    name: 'Rocky',
+    key: 'hole',
+    name: 'Hole',
     price: '$300',
     subtitle: 'Entry sponsorship package',
     benefits: [
