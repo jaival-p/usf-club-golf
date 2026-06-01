@@ -29,7 +29,7 @@ const BENEFITS = [
   },
   {
     label: 'Sponsored Foursome(s)',
-    values: [false, false, false, false, false, false, false],
+    values: ['2 Foursomes', '1 Foursome', '1 Foursome', '1 Foursome', false, false, false],
   },
   {
     label: 'Verbal Recognition',
