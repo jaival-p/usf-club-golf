@@ -14,6 +14,7 @@ export const SPONSORSHIP_TIERS = [
       '6 Dual-Platform Social Media Posts',
       '6 Custom Sponsor Yard Signs',
       'On-Cart Advertising',
+      '2 Sponsored Foursome'
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
@@ -27,6 +28,7 @@ export const SPONSORSHIP_TIERS = [
       '4 Dual-Platform Social Media Posts',
       '4 Custom Sponsor Yard Signs',
       'On-Cart Advertising',
+      '1 Sponsored Foursome'
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
@@ -39,6 +41,7 @@ export const SPONSORSHIP_TIERS = [
       'Official Event Branding Placement',
       '4 Dual-Platform Social Media Posts',
       '3 Custom Sponsor Yard Signs',
+      '1 Sponsored Foursome'
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
@@ -51,6 +54,7 @@ export const SPONSORSHIP_TIERS = [
       'Official Event Branding Placement',
       '2 Dual-Platform Social Media Posts',
       '2 Custom Sponsor Yard Signs',
+      '1 Sponsored Foursome'
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
   },
