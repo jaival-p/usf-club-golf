@@ -7,7 +7,7 @@ export const SPONSORSHIP_TIERS = [
   {
     key: 'platinum',
     name: 'Platinum',
-    price: '$3,750',
+    price: '$2,000',
     subtitle: 'Premier tournament partner',
     benefits: [
       'Official Event Branding Placement',
@@ -21,7 +21,7 @@ export const SPONSORSHIP_TIERS = [
   {
     key: 'gold',
     name: 'Gold',
-    price: '$2,250',
+    price: '$1,500',
     subtitle: 'High visibility partnership',
     benefits: [
       'Official Event Branding Placement',
@@ -35,7 +35,7 @@ export const SPONSORSHIP_TIERS = [
   {
     key: 'silver',
     name: 'Silver',
-    price: '$1,500',
+    price: '$1,000',
     subtitle: 'Featured tournament sponsor',
     benefits: [
       'Official Event Branding Placement',
@@ -48,7 +48,7 @@ export const SPONSORSHIP_TIERS = [
   {
     key: 'trophy',
     name: 'Trophy',
-    price: '$1,100',
+    price: '$750',
     subtitle: 'Supporting event sponsor',
     benefits: [
       'Official Event Branding Placement',
@@ -61,7 +61,7 @@ export const SPONSORSHIP_TIERS = [
   {
     key: 'fairway',
     name: 'Fairway',
-    price: '$750',
+    price: '$350',
     subtitle: 'Awards recognition sponsor',
     benefits: [
       'Official Event Branding Placement',
@@ -73,7 +73,7 @@ export const SPONSORSHIP_TIERS = [
   {
     key: 'rocky',
     name: 'Rocky',
-    price: '$500',
+    price: '$275',
     subtitle: 'Community visibility package',
     benefits: [
       'Official Event Branding Placement',
@@ -81,9 +81,9 @@ export const SPONSORSHIP_TIERS = [
     ],
   },
   {
-    key: 'hole',
-    name: 'Hole',
-    price: '$300',
+    key: 'par',
+    name: 'Par',
+    price: '$175',
     subtitle: 'Entry sponsorship package',
     benefits: [
       'Official Event Branding Placement',
