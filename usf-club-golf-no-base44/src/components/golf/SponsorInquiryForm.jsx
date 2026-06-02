@@ -20,8 +20,6 @@ export default function SponsorInquiryForm({ selectedPackage, onSuccess }) {
     package: selectedPackage?.name || '',
     notes: '',
   });
-  const logoFileRef = useRef(null);
-  const [logoFileName, setLogoFileName] = useState(null);
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -54,7 +52,6 @@ export default function SponsorInquiryForm({ selectedPackage, onSuccess }) {
           website: form.website,
           package: form.package,
           notes: form.notes,
-          logoFileName: logoFileName || null,
         }),
       });
 
