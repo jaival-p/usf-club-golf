@@ -11,7 +11,7 @@ export async function handler(event) {
 
     const resendApiKey = process.env.RESEND_API_KEY;
     const fromEmail = process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev";
-    const toEmail = process.env.SPONSOR_INQUIRY_TO;
+    const toEmail = process.env.SPONSOR_INQUIRY_TO; 
 
     if (!resendApiKey) throw new Error("Missing RESEND_API_KEY environment variable.");
     if (!toEmail) throw new Error("Missing SPONSOR_INQUIRY_TO environment variable.");
