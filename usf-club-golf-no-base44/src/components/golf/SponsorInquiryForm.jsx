@@ -161,12 +161,23 @@ export default function SponsorInquiryForm({ selectedPackage, onSuccess }) {
               {errors.package && <p className="text-red-400 font-mono-data text-xs mt-1">{errors.package}</p>}
             </div>
 
-            <div>
-              <label className="font-mono-data text-stroke text-xs tracking-widest uppercase block mb-2">Company Logo</label>
-              <div className="border border-gold/15 border-dashed rounded-sm px-4 py-4 bg-fairway hover:border-gold/30 transition-colors">
-                <input
-                  type="file"
-                  accept="image/*,.svg,.pdf,.ai,.eps"
+            <div className="border border-gold/15 rounded-sm p-5 bg-gold/5">
+              <label className="font-mono-data text-stroke text-xs tracking-widest uppercase block mb-3">
+                Company Logo
+              </label>
+
+              <p className="font-inter text-stroke text-sm leading-relaxed">
+                After submitting this inquiry, please email your company logo to:
+                </p>
+
+              <p className="font-mono-data text-gold text-sm mt-2">
+                  jaival@usf.edu
+                </p>
+
+              <p className="font-inter text-stroke text-xs mt-3">
+                  Accepted formats: PNG, JPG, SVG, PDF, AI, EPS
+              </p>
+            </div>
                   onChange={e => { logoFileRef.current = e.target.files[0] || null; setLogoFileName(logoFileRef.current?.name || null); }}
                   className="w-full font-inter text-stroke text-sm file:mr-3 file:py-1.5 file:px-4 file:rounded-sm file:border file:border-gold/30 file:bg-transparent file:text-gold file:font-mono-data file:text-xs file:uppercase file:tracking-widest file:cursor-pointer hover:file:border-gold/60 transition-all" />
                 {logoFileName && <p className="font-mono-data text-gold text-xs mt-2">{logoFileName}</p>}
