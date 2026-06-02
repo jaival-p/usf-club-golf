@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 158 74% 7%;
+    --foreground: 40 25% 99%;
+    --card: 160 60% 10%;
+    --card-foreground: 40 25% 99%;
+    --popover: 160 60% 10%;
+    --popover-foreground: 40 25% 99%;
+    --primary: 43 63% 52%;
+    --primary-foreground: 158 74% 7%;
+    --secondary: 160 18% 33%;
+    --secondary-foreground: 40 25% 99%;
+    --muted: 158 30% 15%;
+    --muted-foreground: 155 18% 46%;
+    --accent: 43 63% 52%;
+    --accent-foreground: 158 74% 7%;
+    --destructive: 356 76% 57%;
+    --destructive-foreground: 40 25% 99%;
+    --border: 155 20% 20%;
+    --input: 155 20% 18%;
+    --ring: 43 63% 52%;
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --deep-fairway: #0A2118;
+    --clubhouse-gold: #D4AF37;
+    --tournament-white: #FDFCFB;
+    --stroke-muted: #4B6358;
+    --corsa-red: #E63946;
+    --card-surface: #0D2B1E;
+    --card-surface-hover: #112E21;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    background-color: var(--deep-fairway);
+    color: var(--tournament-white);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+  }
+
+  .font-mono-data {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .text-gold { color: var(--clubhouse-gold); }
+  .bg-gold { background-color: var(--clubhouse-gold); }
+  .border-gold { border-color: var(--clubhouse-gold); }
+  .text-fairway { color: var(--deep-fairway); }
+  .bg-fairway { background-color: var(--deep-fairway); }
+  .text-stroke { color: var(--stroke-muted); }
+  .bg-card-surface { background-color: var(--card-surface); }
+  .bg-card-hover { background-color: var(--card-surface-hover); }
+  .text-tournament-white { color: var(--tournament-white); }
+  .border-gold-hairline { border-color: rgba(212, 175, 55, 0.3); }
+  .gold-glow { box-shadow: 0 0 20px rgba(212, 175, 55, 0.15); }
+  .gold-glow-strong { box-shadow: 0 0 40px rgba(212, 175, 55, 0.25); }
+
+  .topo-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cpath d='M50,200 Q100,150 150,200 Q200,250 250,200 Q300,150 350,200' fill='none' stroke='%23D4AF37' stroke-width='0.5' opacity='0.08'/%3E%3Cpath d='M30,220 Q80,160 130,220 Q180,280 230,220 Q280,160 330,220 Q380,280 430,220' fill='none' stroke='%23D4AF37' stroke-width='0.5' opacity='0.06'/%3E%3Cpath d='M70,180 Q120,130 170,180 Q220,230 270,180 Q320,130 370,180' fill='none' stroke='%23D4AF37' stroke-width='0.5' opacity='0.05'/%3E%3Cpath d='M20,240 Q70,175 120,240 Q170,305 220,240 Q270,175 320,240 Q370,305 420,240' fill='none' stroke='%23D4AF37' stroke-width='0.5' opacity='0.04'/%3E%3Cpath d='M0,260 Q60,195 120,260 Q180,325 240,260 Q300,195 360,260 Q420,325 480,260' fill='none' stroke='%23D4AF37' stroke-width='0.5' opacity='0.07'/%3E%3C/svg%3E");
+    background-size: 400px 400px;
+  }
+
+  .frosted-nav {
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(10, 33, 24, 0.85);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  }
+
+  .input-gold-focus {
+    transition: all 0.2s ease;
+  }
+
+  .input-gold-focus:focus {
+    outline: 2px solid var(--clubhouse-gold);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);
+  }
+
+  .btn-gold {
+    background-color: var(--clubhouse-gold);
+    color: var(--deep-fairway);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    transition: all 0.25s ease;
+  }
+
+  .btn-gold:hover {
+    background-color: #C9A227;
+    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.35);
+    transform: translateY(-1px);
+  }
+
+  .btn-gold:active {
+    transform: translateY(0);
+  }
+
+  .section-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.4), transparent);
+  }
+
+  .gold-rule-v {
+    width: 1px;
+    background: linear-gradient(180deg, transparent, rgba(212, 175, 55, 0.6), transparent);
+  }
+
+  .card-premium {
+    background-color: var(--card-surface);
+    border: 1px solid rgba(212, 175, 55, 0.12);
+    transition: all 0.3s ease;
+  }
+
+  .card-premium:hover {
+    border-color: rgba(212, 175, 55, 0.3);
+    background-color: var(--card-surface-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .error-field {
+    border-color: var(--corsa-red) !important;
+    box-shadow: 0 0 0 2px rgba(230, 57, 70, 0.2) !important;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
