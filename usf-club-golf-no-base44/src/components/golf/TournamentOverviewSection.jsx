@@ -9,6 +9,7 @@ const details = [
   { label: 'Format', value: '4-Person Scramble' },
   { label: 'Tee Time', value: 'Shotgun Start · 8:30 AM' },
   { label: 'Address', value: '10630 Plantation Bay Dr, Tampa, FL 33647' },
+  { label: 'Individual Entry', value: '$99 per player' },
 ];
 
 export default function TournamentOverviewSection() {
