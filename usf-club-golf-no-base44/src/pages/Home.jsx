@@ -33,7 +33,6 @@ export default function Home() {
     <div className="min-h-screen bg-fairway">
       <SponsorNavigation />
       <SponsorHeroSection />
-      <PartnerSection />
       <TournamentOverviewSection />
       <TheCauseSection />
       <SponsorshipPackagesSection onSelectPackage={handleSelectPackage} />
