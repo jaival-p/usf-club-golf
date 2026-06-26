@@ -7,7 +7,6 @@ import SponsorshipPackagesSection from '../components/golf/SponsorshipPackagesSe
 import SponsorInquiryForm from '../components/golf/SponsorInquiryForm';
 import ConfirmationSection from '../components/golf/ConfirmationSection';
 import SponsorFooter from '../components/golf/SponsorFooter';
-import PartnerSection from '../components/golf/PartnerSection';
 
 export default function Home() {
   const [selectedPackage, setSelectedPackage] = useState(null);
