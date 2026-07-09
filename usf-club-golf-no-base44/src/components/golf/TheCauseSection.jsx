@@ -19,7 +19,7 @@ const pillars = [
       </svg>
     ),
     title: 'Industry Careers',
-    desc: 'Connecting students with professional opportunities in golf',
+    desc: 'Connecting students with professional opportunities in golf.',
   },
   {
     icon: (
