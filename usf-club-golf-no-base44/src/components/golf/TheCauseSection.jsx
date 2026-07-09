@@ -10,7 +10,7 @@ const pillars = [
       </svg>
     ),
     title: 'Club Growth',
-    desc: 'Expanding membership, competitive rosters, and leadership opportunities for USF student golfers.',
+    desc: 'Expanding membership, competitive rosters, and leadership opportunities for club members.',
   },
   {
     icon: (
@@ -19,7 +19,7 @@ const pillars = [
       </svg>
     ),
     title: 'Industry Careers',
-    desc: 'Connecting students with professional opportunities in golf — from course management and operations to marketing, broadcasting, and the PGA industry.',
+    desc: 'Connecting students with professional opportunities in golf',
   },
   {
     icon: (
@@ -72,10 +72,10 @@ export default function TheCauseSection() {
           </h2>
           <div className="max-w-3xl space-y-4">
             <p className="font-inter text-tournament-white text-lg leading-relaxed">
-              The USF Golf Club exists to give student-athletes the opportunity to compete, grow, and represent the University of South Florida — but like many club sports, it faces real financial challenges.
+              Club Golf at USF exists to give student-athletes the opportunity to compete, grow, and represent the University of South Florida — but like many club sports, it faces real financial challenges.
             </p>
             <p className="font-inter text-stroke text-lg leading-relaxed">
-              After significant funding cuts, the club relies on the generosity of sponsors and community partners to keep the program alive and thriving. The Charity Classic was created to close that gap — and your sponsorship makes it possible.
+              While our club is partly funded by the university, we still rely on generous donors and sponsors to help cover the costs of travel, tournament registration, and more. The Charity Classic was created to close that gap — and your sponsorship makes it possible.
             </p>
           </div>
         </motion.div>
