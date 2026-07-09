@@ -17,7 +17,7 @@ const BENEFITS = [
   },
   {
     label: 'Social Media Posts',
-    values: ['6 Posts', '4 Posts', '4 Posts', '2 Posts', '2 Posts', '2 Posts', false],
+    values: [true, true, true, true, true, true, false],
   },
   {
     label: 'Custom Sponsor Yard Signs',
