@@ -23,7 +23,7 @@ export default function SponsorFooter() {
             <div className="font-fraunces text-gold text-xl mb-2">Club Golf at USF</div>
             <div className="font-mono-data text-stroke text-xs tracking-widest uppercase mb-4">Charity Classic · 2026</div>
             <p className="font-inter text-stroke text-sm leading-relaxed max-w-xs">
-              The inaugural Golf Club at USF Charity Classic — bringing together sponsors and the USF community to grow the future of club golf.
+              The inaugural Club Golf at USF Charity Classic — bringing together sponsors and the USF community to grow the future of club golf.
             </p>
           </div>
 
