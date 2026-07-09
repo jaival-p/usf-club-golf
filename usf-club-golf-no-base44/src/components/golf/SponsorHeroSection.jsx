@@ -47,13 +47,13 @@ export default function SponsorHeroSection() {
 
             <div className="flex items-center gap-3">
               <div className="h-px w-12 bg-gold opacity-60" />
-              <span className="font-mono-data text-gold text-xs tracking-[0.25em] uppercase">University of South Florida Club GOLF presents
+              <span className="font-mono-data text-gold text-xs tracking-[0.25em] uppercase">Club Golf at the University of South Florida presents
 
               </span>
             </div>
 
             <h1 className="font-fraunces font-black text-tournament-white leading-none">
-              <span className="block text-5xl md:text-6xl lg:text-7xl">The USF Club Golf</span>
+              <span className="block text-5xl md:text-6xl lg:text-7xl">The Club Golf at USF</span>
               <span className="block text-5xl md:text-6xl lg:text-7xl text-gold">Charity</span>
               <span className="block text-5xl md:text-6xl lg:text-7xl">Classic</span>
             </h1>
@@ -61,7 +61,7 @@ export default function SponsorHeroSection() {
             <div className="h-px w-24 bg-gold/50" />
 
             <p className="font-inter text-tournament-white text-xl leading-relaxed max-w-xl opacity-90">
-              Support the inaugural USF Golf Club Charity Classic and help grow the future of club golf at USF.
+              Support the inaugural Club Golf Charity Classic and help grow the future of club golf at USF.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
