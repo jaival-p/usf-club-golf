@@ -33,7 +33,7 @@ export default function TournamentOverviewSection() {
             Tournament Overview
           </h2>
           <p className="font-inter text-stroke text-lg max-w-2xl leading-relaxed">
-            The inaugural Golf Club at USF Charity Classic brings together business leaders, alumni, and golf enthusiasts for a day of competition and community impact.
+            The inaugural Club Golf at USF Charity Classic brings together business leaders, alumni, and golf enthusiasts for a day of competition and community impact.
           </p>
         </motion.div>
 
