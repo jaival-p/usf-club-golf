@@ -30,7 +30,7 @@ export default function SponsorNavigation() {
         {/* Logo */}
         <button onClick={() => scrollTo('hero')} className="flex items-center gap-3">
           <img src={usfLogo} alt="USF Club Golf Logo" className="h-8 w-8 object-contain rounded-none" />
-          <span className="font-fraunces text-tournament-white text-base">USF Club Golf</span>
+          <span className="font-fraunces text-tournament-white text-base">Club Golf @ USF</span>
         </button>
 
         {/* Desktop nav */}
