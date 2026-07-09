@@ -11,7 +11,7 @@ export const SPONSORSHIP_TIERS = [
     subtitle: 'Premier tournament partner',
     benefits: [
       'Official Event Branding Placement',
-      '6 Dual-Platform Social Media Posts',
+      'Dual-Platform Social Media Posts',
       '6 Custom Sponsor Yard Signs',
       'On-Cart Advertising',
       '2 Sponsored Foursomes',
@@ -25,7 +25,7 @@ export const SPONSORSHIP_TIERS = [
     subtitle: 'High visibility partnership',
     benefits: [
       'Official Event Branding Placement',
-      '4 Dual-Platform Social Media Posts',
+      'Dual-Platform Social Media Posts',
       '4 Custom Sponsor Yard Signs',
       'On-Cart Advertising',
       '1 Sponsored Foursome',
@@ -39,7 +39,7 @@ export const SPONSORSHIP_TIERS = [
     subtitle: 'Featured tournament sponsor',
     benefits: [
       'Official Event Branding Placement',
-      '4 Dual-Platform Social Media Posts',
+      'Dual-Platform Social Media Posts',
       '3 Custom Sponsor Yard Signs',
       '1 Sponsored Foursome',
       'Verbal Recognition at Shotgun, Lunch, and Awards',
@@ -52,7 +52,7 @@ export const SPONSORSHIP_TIERS = [
     subtitle: 'Supporting event sponsor',
     benefits: [
       'Official Event Branding Placement',
-      '2 Dual-Platform Social Media Posts',
+      'Dual-Platform Social Media Posts',
       '2 Custom Sponsor Yard Signs',
       '1 Sponsored Foursome',
       'Verbal Recognition at Shotgun, Lunch, and Awards',
@@ -65,7 +65,7 @@ export const SPONSORSHIP_TIERS = [
     subtitle: 'Awards recognition sponsor',
     benefits: [
       'Official Event Branding Placement',
-      '2 Dual-Platform Social Media Posts',
+      'Dual-Platform Social Media Posts',
       '1 Custom Sponsor Yard Sign',
       'Verbal Recognition at Shotgun, Lunch, and Awards',
     ],
@@ -77,7 +77,7 @@ export const SPONSORSHIP_TIERS = [
     subtitle: 'Community visibility package',
     benefits: [
       'Official Event Branding Placement',
-      '2 Dual-Platform Social Media Posts',
+      'Dual-Platform Social Media Posts',
     ],
   },
   {
