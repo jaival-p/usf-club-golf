@@ -40,7 +40,7 @@ export async function handler(event) {
         from: fromEmail,
         to: recipients,
         reply_to: data.email || undefined,
-        subject: "New USF Club Golf Sponsorship Inquiry",
+        subject: "New Club Golf at USF Sponsorship Inquiry",
         html: emailHtml,
       }),
     });
