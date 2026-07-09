@@ -20,7 +20,7 @@ export default function ConfirmationSection({ onReset }) {
             Thank You for Your Interest
           </h2>
           <p className="font-inter text-stroke text-lg leading-relaxed mb-8">
-            Thank you for your interest in sponsoring the Golf Club at USF Charity Classic. Our sponsorship team will review your submission and follow up with invoice details, logo requirements, and next steps.
+            Thank you for your interest in sponsoring the Club Golf at USF Charity Classic. Our sponsorship team will review your submission and follow up with invoice details, logo requirements, and next steps.
           </p>
 
           <div className="bg-card-surface border border-gold/15 rounded-sm p-6 mb-8 text-left space-y-3">
