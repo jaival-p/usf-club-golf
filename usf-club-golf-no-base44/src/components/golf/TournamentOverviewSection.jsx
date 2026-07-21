@@ -10,7 +10,7 @@ const details = [
   { label: 'Tee Time', value: 'Shotgun Start · 8:30 AM' },
   { label: 'Address', value: '10630 Plantation Bay Dr, Tampa, FL 33647' },
   { label: 'Individual Entry', value: '$89 per player' },
-  { label: 'Register Here', value: https://paradisegolfcard.com/products/august-29-club-golf-at-usf-charity-event-play-day },
+  { label: 'Register Here', value: "https://paradisegolfcard.com/products/august-29-club-golf-at-usf-charity-event-play-day" },
 ];
 
 export default function TournamentOverviewSection() {
